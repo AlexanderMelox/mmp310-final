@@ -438,7 +438,7 @@ $('.lb').click(function(event) {
   event.preventDefault();
   var imageLocation = $(this).attr('href');
   var caption = $(this).first().attr('alt');
-  
+
   //Update overlay with the image linked in the link
   $image.attr('src', imageLocation);
   $

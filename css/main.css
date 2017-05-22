@@ -165,9 +165,12 @@ nav a.active {
   border: 2px solid #D5DDE4;
   border-radius: 4px;
   padding: 12px 20px;
+  margin-top: 2px;
   color: #777B7E;
   transition: .35s;
   font-weight: 400;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -429,9 +432,10 @@ footer {
 
 .workshops h2 {
   margin-bottom: 1em;
-
+  font-size: 1.5em;
 }
 
 .workshops img {
   box-shadow: 0 5px 10px rgba(0,0,0, .8);
+  width: 100%;
 }
