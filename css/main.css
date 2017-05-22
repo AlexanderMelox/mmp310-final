@@ -416,9 +416,22 @@ footer {
 
 #overlay img {
   margin-top: 10%;
-  width: 500px;
+  width: 60%;
 }
 
 #overlay p {
   color: white;
+}
+
+.workshops {
+  padding: 50px 2.5%;
+}
+
+.workshops h2 {
+  margin-bottom: 1em;
+
+}
+
+.workshops img {
+  box-shadow: 0 5px 10px rgba(0,0,0, .8);
 }

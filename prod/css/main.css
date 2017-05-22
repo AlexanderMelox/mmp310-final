@@ -42,9 +42,6 @@ h1, h2 {
   font-weight: 400;
   width: 100%;
 }
-h1 {
-  ;
-}
 h2 {
   font-size: 42px;
   color: #465058;
@@ -419,7 +416,7 @@ footer {
 
 #overlay img {
   margin-top: 10%;
-  width: 500px;
+  width: 60%;
 }
 
 #overlay p {
