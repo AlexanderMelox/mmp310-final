@@ -66,17 +66,22 @@ h5 {
 
 /*Logo*/
 .logo {
-  width: 80px;
-  height: 24px;
   display: block;
   float: left;
-  margin: 20px 0;
-  background-size: 80px 16px;
+  margin: 0;
   font-weight: 500;
-  color: #B1B9C1;
+  color:#333;
+  background-image: url('../img/logo.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 15px;
+  padding-top: 22px;
+  padding-left: 22px;
+  transition: opacity 1s;
 }
 .logo:hover {
-  color: #333;
+  /*opacity: .8;*/
 }
 .description {
   line-height: 60px;
@@ -392,7 +397,7 @@ footer {
 .header {
   background-color: white;
   transition: 1s;
-  padding: 0 2.5%;
+  padding: 10px 2.5%;
 }
 .is-sticky .header {
   background-color: black;
