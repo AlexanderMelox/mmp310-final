@@ -61,12 +61,12 @@ gulp.task('clean', function() {
 });
 
 gulp.task("build", ['minifyScripts'], function() {
-  return gulp.src(["css/main.css", "js/app.min.js", 'index.html',
+  return gulp.src(["css/main.css", "js/app.min.js", '*.html',
                    "img/**", "fonts/**"], { base: './'})
             .pipe(gulp.dest('prod'));
 });
 
-gulp.task('serve', ['browser-sync','watchFiles', 'build'], function() {
+gulp.task('serve', ['browser-sync','watchFiles'], function() {
   gulp.watch('js/**/*.js', browserSync.reload);
 });
 
