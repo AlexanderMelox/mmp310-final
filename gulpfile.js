@@ -66,7 +66,7 @@ gulp.task("build", ['minifyScripts'], function() {
             .pipe(gulp.dest('prod'));
 });
 
-gulp.task('serve', ['browser-sync','watchFiles'], function() {
+gulp.task('serve', ['browser-sync','watchFiles', 'build'], function() {
   gulp.watch('js/**/*.js', browserSync.reload);
 });
 
